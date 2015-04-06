@@ -1,0 +1,20 @@
+
+.photo
+{
+    padding:10px 10px;
+    border: 8px dashed #D5D5D5;
+    //border:10px  #7E7E7E;
+    text-align:center;
+}
+.label-add-cat{
+    font-size:15px;
+    text-transform: uppercase;
+    color:#D5D5D5;
+}
+.image{
+    margin: 20px auto 0px auto;
+    height: 200px;
+    width:200px;
+    background:url("../image/photo.png")no-repeat;
+    background-size: contain;
+}

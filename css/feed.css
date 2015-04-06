@@ -112,3 +112,11 @@ li span{
     width:16px;
     background:url("../image/image.jpg")no-repeat 120px 0;
 }
+.photo
+{
+    height: 200px;
+    width:200px;
+    background:url("../image/photo.png")no-repeat;
+    background-size: contain;
+    border:4px dotted #7E7E7E;
+}
