@@ -1,0 +1,40 @@
+.logo{
+    width:230px;
+    height:300px;
+    background: url("../image/logo.png") no-repeat;
+}
+.menu{
+
+}
+.group-image{
+    float:left;
+    background: url("../image/group.png")no-repeat;
+    height:30px;
+    width:30px;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.count{
+    float:left;
+    color:#ADADAD;
+}
+.members{
+    width:40%;
+    float:left;
+}
+
+.language li{
+    display:inline-block;
+}
+.language li.active{
+    color:#F6C350;
+}
+.language{
+    float:left;
+    list-style:none;
+}
+
+.about-button{
+    width:20%;
+    float: right;
+}

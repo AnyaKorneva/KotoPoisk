@@ -24,14 +24,14 @@
         <div class="label-add-cat">добавить фото</div>
         </div>
     <div>
-        <input type="file" name="photo" multiple accept="image/*,image/jpeg">
-        <input type="button" value="+добавить еще фото">
+        <!--<input type="file" name="photo" multiple accept="image/*,image/jpeg"> -->
+        <input  class="additional-info add-image-button" type="button" value="+добавить еще фото">
     </div>
-    <div><textarea rows="3" cols="4">Комментарий</textarea></div>
-    <div><textarea rows="3" cols="4">Контакты</textarea></div>
-    <div><textarea rows="3" cols="4">Адрес</textarea></div>
-    <div class="map">или <input type="button" value="указать место на карте"></div>
-    <input type="submit" value="Добавить">
+    <div class="additional-info"><textarea class="additional-info" rows="3" placeholder="Комментарий"></textarea></div>
+    <div class="additional-info"><textarea class="additional-info" rows="3" placeholder="Контакты"></textarea></div>
+    <div class="additional-info"><textarea class="additional-info" rows="2" placeholder="Адрес"></textarea></div>
+    <div class="additional-info map"><div class="text">или</div> <button class="add-map-button" type="submit"><span class="add-map-image"></span>Указать место на карте</button>></div>
+    <input type="submit" class="additional-info add-cat-button" value="Добавить">
     </div>
 </div>
 </form>

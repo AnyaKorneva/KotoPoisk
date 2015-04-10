@@ -1,16 +1,11 @@
-.body{
-
-}
 
 .content{
-    width:300px;
+    width:230px;
     margin-right: auto;
     margin-left: auto;
     font-size:0px;
 }
-form{
 
-}
 .main{
     border:1px solid #C0C0C0;
     width:600px;
@@ -41,8 +36,6 @@ form{
 .count{
     float:right;
     color:#ADADAD;
-    text-align: center;
-    vertical-align: middle;
 }
 .header{
     text-align:center;
@@ -50,10 +43,10 @@ form{
 }
 
 .title{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-transform: uppercase;
     text-align:center;
-    font-size:20px;
+    font-size:30px;
     color:#7E7E7E;
 
 }

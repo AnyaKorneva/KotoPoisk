@@ -1,20 +1,78 @@
-
+.additional-info{
+    width:100%;
+    margin-bottom:5px;
+}
 .photo
 {
     padding:10px 10px;
     border: 8px dashed #D5D5D5;
-    //border:10px  #7E7E7E;
     text-align:center;
+    margin-bottom:10px;
 }
 .label-add-cat{
-    font-size:15px;
+    margin-bottom:10px;
+    font-size:20px;
     text-transform: uppercase;
     color:#D5D5D5;
 }
 .image{
-    margin: 20px auto 0px auto;
-    height: 200px;
-    width:200px;
+    margin: 20px auto 10px auto;
+    height: 120px;
+    width:150px;
     background:url("../image/photo.png")no-repeat;
     background-size: contain;
 }
+.add-image-button{
+    color:#C8C8C8;
+    background-color: #F6F6F6;
+    border:1px solid #E1E1E1;
+    height:35px;
+    margin-bottom:10px;
+    font-size: 14px;
+}
+.add-cat-button{
+    background-color: #F6C350;
+    color:white;
+    text-transform: uppercase;
+    height: 40px;
+    border:none;
+    font-size: 16px;
+}
+.add-map-button{
+    float:right;
+    color:white;
+    background:#7E7E7E;
+    border:none;
+    height:35px;
+    font-size: 14px;
+}
+.add-map-image{
+    vertical-align: middle;
+    margin:2px;
+    display:inline-block;
+    width:20px;
+    height:25px;
+    background:#7E7E7E url("../image/add-map-min.png") no-repeat;
+}
+.map .text{
+    width: 10px;
+    height: 30px;
+    font-size: 14px;
+    float: left;
+    vertical-align: bottom;
+    padding: 8px;
+    color:#C8C8C8;
+}
+textarea{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    resize:none;
+    border: 1px solid #E1E1E1;
+    padding: 4px;
+    width:100%;
+}
+::-webkit-input-placeholder  { color:#E1E1E1; font:italic 14px Arial;} /* Webkit */
+:-moz-placeholder { color:#E1E1E1; }  /* Firefox <= 18 */
+::-moz-placeholder { color:#E1E1E1; }  /* Firefox >= 19 */
+:-ms-input-placeholder {  color: #E1E1E1; } /* Internet Explorer */
