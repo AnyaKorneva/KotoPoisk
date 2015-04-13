@@ -1,4 +1,5 @@
 .logo{
+    margin:0 auto;
     width:230px;
     height:300px;
     background: url("../image/logo.png") no-repeat;
@@ -37,4 +38,23 @@
 .about-button{
     width:20%;
     float: right;
+}
+.login{
+    background: #F9F9F9;
+    padding: 20px 0px 40px 0px;
+}
+.text, .login-button, .policy{
+    width:230px;
+}
+.login div{
+    width:230px;
+    margin:10px auto 20px auto;
+}
+.login-button{
+    background: #3C3C3C;
+    color:white;
+}
+.content{
+    width:100%;
+    font-size:14px;
 }
