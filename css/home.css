@@ -37,7 +37,8 @@
 .language li.active{
     color:#F6C350;
 }
-.language span{
+.nav span{
+    font-size:16px;
     color:#E9E9E9;
 }
 .language{
@@ -62,6 +63,11 @@
     height:40px;
     padding:5px;
     width:290px;
+}
+.email-input{
+    padding-left:15px;
+    background:#F9F9F9;
+    border: 1px solid #E9E9E9;
 }
 .policy{
     text-align:center;
