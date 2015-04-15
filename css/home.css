@@ -1,11 +1,15 @@
 .logo{
     margin:0 auto;
     width:230px;
-    height:300px;
+    height:250px;
     background: url("../image/logo.png") no-repeat;
 }
 .menu{
-
+    padding:10px 10px 10px 10px;
+    height: 30px;
+    margin-bottom:20px;
+}
+.menu div{
 }
 .group-image{
     float:left;
@@ -13,48 +17,69 @@
     height:30px;
     width:30px;
     background-size: cover;
-    box-sizing: border-box;
 }
 .count{
+    margin-top:5px;
+    margin-left:10px;
     float:left;
     color:#ADADAD;
 }
 .members{
-    width:40%;
+    width:35%;
     float:left;
 }
 
 .language li{
     display:inline-block;
+    margin-right:5px;
+    margin-left:5px;
 }
 .language li.active{
     color:#F6C350;
 }
+.language span{
+    color:#E9E9E9;
+}
 .language{
+    margin:5px auto;
     float:left;
     list-style:none;
 }
-
 .about-button{
-    width:20%;
+    width:25%;
+    color:white;
+    height: 30px;
+    background: #F6C350;
     float: right;
+    border:none;
 }
 .login{
     background: #F9F9F9;
     padding: 20px 0px 40px 0px;
 }
-.text, .login-button, .policy{
-    width:230px;
+.email-input,.login-button, .policy{
+    box-sizing: border-box;
+    height:40px;
+    padding:5px;
+    width:290px;
+}
+.policy{
+    text-align:center;
+    color:#C1C1C1;
 }
 .login div{
-    width:230px;
+    width:290px;
     margin:10px auto 20px auto;
 }
 .login-button{
     background: #3C3C3C;
     color:white;
+    border:none;
 }
 .content{
     width:100%;
     font-size:14px;
+}
+.nav{
+    margin: 20px 0px 10px 120px ;
 }
