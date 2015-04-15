@@ -11,7 +11,12 @@
     width:600px;
     margin: 0 auto;
 }
-
+.menu{
+    padding:10px 10px 10px 10px;
+    height: 30px;
+    border-bottom:0.5px solid #C0C0C0;
+    margin-bottom:20px;
+}
 .menu-image{
     float: left;
     background: url("../image/menu.png")no-repeat;
