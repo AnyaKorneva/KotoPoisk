@@ -1,0 +1,95 @@
+.cooperation-image{
+    margin:0 auto;
+    width:50px;
+    height:50px;
+    background: url("../image/about1.png")no-repeat 0px 0px;
+}
+.cooperation{
+    width:50%;
+    background-color: #F9F9F9;
+    height: 150px;
+    float:left;
+}
+.cooperation-data{
+    float: right;
+    text-align: center;
+    margin-right:20%;
+}
+
+.ad-data{
+    float:left;
+    margin-left:20%;
+    text-align: center;
+}
+/*.me{
+    margin-left: 30%;
+    border: 4px solid #7E7E7E;
+    width:225px;
+    height:225px;
+    background: url("../image/catgirl2.jpg")no-repeat 0px 0px;
+}*/
+.me{
+
+    margin-left: 33%;
+    width:208px;
+    height:242px;
+    background: url("../image/catgirl.jpg")no-repeat -5px 0px;
+}
+.ad{
+    width:50%;
+    background-color: #F6F6F6;
+    height: 150px;
+    float:right;
+}
+
+.ad-image{
+    margin:0 auto;
+    width:50px;
+    height:50px;
+    background: url("../image/about1.png")no-repeat -55px 0px;
+}
+
+.content{
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size:16px;
+    color:#7E7E7E;
+}
+.clearfix:after{
+    content:'';
+    clear:both;
+    display:table;
+}
+.info{
+    padding:10px 30px 30px 30px;
+}
+.share{
+    width:270px;
+    margin:0 auto;
+    padding: 10px 10px 10px 20px;
+
+}
+.share div{
+    text-align: center;
+    color:#7f8c8d;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+.social{
+    display:inline-block;
+    width:70px;
+    height:70px;
+    margin-right:10px;
+    vertical-align:middle;
+    background-color:#bdc3c7;
+}
+.social-vk{
+ background: url("../image/main-icons.png")no-repeat 0px -882px;
+}
+.social-fb{
+    background: url("../image/main-icons.png")no-repeat 0px -530px;
+}
+.social-ig{
+    background: url("../image/main-icons.png")no-repeat 0px -706px;
+}
