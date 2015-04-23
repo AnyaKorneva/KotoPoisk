@@ -62,34 +62,46 @@
     display:table;
 }
 .info{
-    padding:10px 30px 30px 30px;
+    padding:10px 30px 10px 30px;
 }
 .share{
-    width:270px;
+    width:220px;
     margin:0 auto;
-    padding: 10px 10px 10px 20px;
-
+    padding: 10px 10px 20px 20px;
 }
+
 .share div{
+    font-size: 20px;
     text-align: center;
     color:#7f8c8d;
-    font-weight:normal;
-    text-transform:uppercase;
+}
+.social-links{
+    width: 145px;
+    margin: 10px auto;
 }
 .social{
     display:inline-block;
-    width:70px;
-    height:70px;
+    width:35px;
+    height:35px;
     margin-right:10px;
     vertical-align:middle;
     background-color:#bdc3c7;
 }
 .social-vk{
- background: url("../image/main-icons.png")no-repeat 0px -882px;
+ background: url("../image/social-small.png")no-repeat 0px -229px;
 }
 .social-fb{
-    background: url("../image/main-icons.png")no-repeat 0px -530px;
+    background: url("../image/social-small.png")no-repeat 0px -51px;
 }
 .social-ig{
-    background: url("../image/main-icons.png")no-repeat 0px -706px;
+    background: url("../image/social-small.png")no-repeat 0px -140px;
+}
+.social-vk:hover{
+    background: url("../image/social-small.png")no-repeat 0px -185px;
+}
+.social-fb:hover{
+    background: url("../image/social-small.png")no-repeat 0px -6px;
+}
+.social-ig:hover{
+    background: url("../image/social-small.png")no-repeat 0px -95px;
 }
