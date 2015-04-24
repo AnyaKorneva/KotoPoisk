@@ -31,18 +31,65 @@
             </div>
             <div>
                 <ul class="nav">
-                    <li class="active">ЗАРЕГИСТРИРУЙТЕСЬ</li>
+                    <li id="logontab" class="active">ЗАРЕГИСТРИРУЙТЕСЬ</li>
                     <span>ИЛИ</span>
-                    <li>ВОЙДИТЕ</li>
+                    <li id="logintab">ВОЙДИТЕ</li>
                 </ul>
             </div>
-            <div class="login">
+            <div class="logon" style="display: block">
                 <div><input type="text" class="email-input" placeholder="Введите ваш E-mail"></div>
-                <div><button class="login-button" type="submit">ПОЛУЧИТЬ ДОСТУП</button></div>
+                <div><button class="logon-button" type="submit">ПОЛУЧИТЬ ДОСТУП</button></div>
+                <div class="policy">Политика конфиденциальности</div>
+            </div>
+            <div class="login" style="display: none">
+                <div><input type="text" class="email-input" placeholder="Введите ваш E-mail"></div>
+                <div><input type="text" class="password-input" placeholder="Пароль"></div>
+                <div id="remindtab" class="forgot-password">Забыли пароль?</div>
+                <div><button class="login-button" type="submit">ВОЙТИ</button></div>
+            </div>
+            <div class="remind" style="display: none">
+                <div><input type="text" class="email-input" placeholder="Введите ваш E-mail"></div>
+                <div><button class="remind-button" type="submit">НАПОМНИТЬ ПАРОЛЬ</button></div>
                 <div class="policy">Политика конфиденциальности</div>
             </div>
         </div>
     </div>
 </form>
 </body>
+<script>
+
+
+    var logon = document.getElementsByClassName('logon');
+    var login = document.getElementsByClassName('login');
+    var remind = document.getElementsByClassName('remind');
+    var logontab = document.getElementById('logontab');
+    var logintab = document.getElementById('logintab');
+    var remindtab = document.getElementById('remindtab');
+
+    logontab.onclick = function ()
+    {
+        logon[0].style.display="block";
+        remind[0].style.display="none";
+        login[0].style.display="none";
+        logontab.className ="active";
+        logintab.className ="";
+    };
+    logintab.onclick = function ()
+    {
+        logon[0].style.display="none";
+        remind[0].style.display="none";
+        login[0].style.display="block";
+        logontab.className ="";
+        logintab.className ="active";
+    }
+    remindtab.onclick = function ()
+    {
+        logon[0].style.display="none";
+        remind[0].style.display="block";
+        login[0].style.display="none";
+        logontab.className ="";
+        logintab.className ="";
+    };
+
+</script>
 </html>

@@ -1,5 +1,5 @@
 .logo{
-    margin:0 auto;
+    margin:30px auto;
     width:230px;
     height:250px;
     background: url("../image/logo.png") no-repeat;
@@ -54,38 +54,92 @@
     float: right;
     border:none;
 }
-.login{
+.remind,
+.login,
+.logon{
     background: #F9F9F9;
-    padding: 20px 0px 40px 0px;
+    padding: 20px 0px 0px 0px;
+    height: 240px;
 }
-.email-input,.login-button, .policy{
+.remind-button,.password-input,
+.login-button,
+.email-input,.logon-button, .policy{
     box-sizing: border-box;
     height:40px;
     padding:5px;
     width:290px;
 }
+.password-input,
 .email-input{
     padding-left:15px;
     background:#F9F9F9;
     border: 1px solid #E9E9E9;
 }
 .policy{
-    text-align:center;
+     text-align:center;
+     color:#C1C1C1;
+ }
+.policy:hover, .forgot-password:hover{
+    color:#6a6a6a;
+}
+.forgot-password{
+    text-align:right;
     color:#C1C1C1;
 }
-.login div{
+.remind div,
+.login div,
+.logon div{
     width:290px;
     margin:10px auto 20px auto;
 }
+.remind-button,
+.logon-button,
 .login-button{
     background: #3C3C3C;
     color:white;
     border:none;
 }
+.remind-button:hover,
+.logon-button:hover,
+.login-button:hover{
+    background: #1b1b1b;
+}
+
 .content{
     width:100%;
     font-size:14px;
 }
 .nav{
     margin: 20px 0px 10px 120px ;
+}
+.language, .nav{
+    text-transform: uppercase;
+    list-style:none;
+}
+
+.language li,
+.nav li{
+    font-size:15px;
+    display:inline-block;
+    color:#D5D5D5;
+}
+.nav li{
+    background: url("../image/underline.png")center 20px no-repeat;
+    height: 35px;
+}
+
+.language li.active,
+.nav li.active{
+    color:#F6C350;
+}
+.nav li.active{
+    background: url("../image/underline-active.png")center 20px no-repeat;
+}
+
+.nav li:hover,
+.language li:hover{
+    color:#F6C350;
+}
+.nav li:hover{
+    background: url("../image/underline-active.png")center 20px no-repeat;
 }
